@@ -1,0 +1,57 @@
+# =========================
+# Backend (Python / FastAPI)
+# =========================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+.venv-*/
+venv/
+ENV/
+env/
+.env
+
+# Database (if using local SQLite later)
+*.db
+*.sqlite3
+
+# =========================
+# Frontend (Node.js / React)
+# =========================
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Production build
+frontend/build/
+build/
+dist/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# OS & Editor Files
+# =========================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
