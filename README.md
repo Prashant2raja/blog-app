@@ -54,3 +54,17 @@ npm install
 
 # Start the React development server
 npm start
+
+
+
+## 🗄️ Database Setup (Neon PostgreSQL)
+
+This project uses a free serverless PostgreSQL database hosted on [Neon](https://neon.tech/).
+
+**Steps to configure:**
+1. Create a free account at Neon.tech and set up a new project.
+2. Go to your Neon Dashboard and copy the connection string from the "Connection Details" widget.
+3. Verify the string follows this format: `postgresql://[username]:[password]@[host]/neondb?sslmode=require`
+4. Set this string as an environment variable in your backend terminal before starting the server:
+   ```bash
+   export DATABASE_URL="your-neon-database-url"
